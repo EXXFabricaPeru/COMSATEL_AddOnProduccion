@@ -1,0 +1,148 @@
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.exe
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.pdb
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.AssemblyReference.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbobsCOM.dll
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbouiCOM.dll
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.Properties.Resources.resources
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.GenerateResource.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.exe
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.AssemblyReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.Properties.Resources.resources
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.GenerateResource.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csprojResolveAssemblyReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.Properties.Resources.resources
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.GenerateResource.Cache
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.exe.config
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.exe
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\AddonProduccionEnsDes.pdb
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.ValueTuple.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\netstandard.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.AppContext.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Collections.Concurrent.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Collections.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Collections.NonGeneric.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Collections.Specialized.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.ComponentModel.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.ComponentModel.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.ComponentModel.TypeConverter.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Console.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Data.Common.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.Contracts.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.Debug.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.Process.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.StackTrace.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.Tools.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.TraceSource.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Diagnostics.Tracing.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Drawing.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Dynamic.Runtime.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Globalization.Calendars.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Globalization.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Globalization.Extensions.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.Compression.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.Compression.ZipFile.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.FileSystem.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.FileSystem.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.FileSystem.Watcher.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.IsolatedStorage.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.MemoryMappedFiles.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.Pipes.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Linq.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Linq.Expressions.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Linq.Parallel.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Linq.Queryable.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.Http.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.NameResolution.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.NetworkInformation.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.Ping.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.Requests.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.Security.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.Sockets.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.WebHeaderCollection.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.WebSockets.Client.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Net.WebSockets.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.ObjectModel.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Reflection.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Reflection.Extensions.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Reflection.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Resources.Reader.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Resources.ResourceManager.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Resources.Writer.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Extensions.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Handles.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.InteropServices.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Numerics.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Serialization.Json.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Runtime.Serialization.Xml.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Claims.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Cryptography.Csp.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Cryptography.Encoding.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Cryptography.Primitives.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.Principal.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Security.SecureString.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Text.Encoding.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Text.Encoding.Extensions.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Text.RegularExpressions.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.Overlapped.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.Tasks.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.Tasks.Parallel.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.Thread.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.ThreadPool.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Threading.Timer.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Xml.ReaderWriter.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Xml.XDocument.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Xml.XmlDocument.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Xml.XmlSerializer.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Xml.XPath.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Xml.XPath.XDocument.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\SpreadsheetLight.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.Drawing.Common.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.Packaging.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\SpreadsheetLight.xml
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\bin\x86\Debug\System.IO.Packaging.xml
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.AssemblyReference.cache
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\Interop.SAPbouiCOM.dll
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.Properties.Resources.resources
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.GenerateResource.cache
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.csproj.CopyComplete
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.exe
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion_20241126\ProduccionEnsDes\obj\x86\Debug\AddonProduccionEnsDes.pdb

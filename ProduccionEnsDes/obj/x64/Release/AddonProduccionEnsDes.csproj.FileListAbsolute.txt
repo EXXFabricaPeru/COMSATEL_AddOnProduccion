@@ -1,0 +1,40 @@
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.exe
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.pdb
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\Interop.SAPbobsCOM.dll
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\Interop.SAPbouiCOM.dll
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.Properties.Resources.resources
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.GenerateResource.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.exe
+G:\David\EXXIS\COMSATEL\RICARDO\COMS_Produccion\2. Implementacion\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\Interop.SAPbobsCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\Interop.SAPbouiCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.Properties.Resources.resources
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.GenerateResource.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\Interop.SAPbobsCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\Interop.SAPbouiCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.Properties.Resources.resources
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.GenerateResource.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20220203\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\bin\x64\Release\AddonProduccionEnsDes.pdb
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\Interop.SAPbobsCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\Interop.SAPbouiCOM.dll
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.ResolveComReference.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.Properties.Resources.resources
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.GenerateResource.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.exe
+D:\Dropbox\Profesional\XXS\Clientes\CONSATEL\2 PROYECTOS PRODUCCION MASIVA\AddOnProduccion_20230213\ProduccionEnsDes\obj\x64\Release\AddonProduccionEnsDes.pdb
