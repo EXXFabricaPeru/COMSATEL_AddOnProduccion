@@ -528,10 +528,11 @@ namespace AddonProduccionEnsDes.view
                         {
                             if (GetStatusOrder(dsDETA.GetValue("U_EXC_ORDT", i)) != "L")
                             {
-                                string ItemCode = dsDETA.GetValue("U_EXC_CEQP", i);
-                                string SerieNumberEqp = string.IsNullOrEmpty(dsDETA.GetValue("U_EXC_SEQP", i)) ? dsDETA.GetValue("U_EXC_IMEI", i).ToString() : dsDETA.GetValue("U_EXC_SEQP", i);
-                                string Chip = dsDETA.GetValue("U_EXC_CCHI", i);
-                                string SerieNumberCh = GetInternalNumberSerie(dsDETA.GetValue("U_EXC_CCHI", i), dsDETA.GetValue("U_EXC_IMEICH", i));
+                                //string ItemCode = dsDETA.GetValue("U_EXC_CEQP", i);
+                                //string SerieNumberEqp = string.IsNullOrEmpty(dsDETA.GetValue("U_EXC_SEQP", i)) ? dsDETA.GetValue("U_EXC_IMEI", i).ToString() : dsDETA.GetValue("U_EXC_SEQP", i);
+                                //string Chip = dsDETA.GetValue("U_EXC_CCHI", i);
+                                //string SerieNumberCh = GetInternalNumberSerie(dsDETA.GetValue("U_EXC_CCHI", i), dsDETA.GetValue("U_EXC_IMEICH", i));
+                                //string Fecha = dsHEAD.GetValue("U_EXC_FEPR", 0).ToString();
 
                                 Conexion.company.StartTransaction();
                                 sta = ActualizarOrdProd(i, BoProductionOrderStatusEnum.boposReleased);
@@ -540,10 +541,10 @@ namespace AddonProduccionEnsDes.view
                                 if (sta) sta = ActualizarOrdProd(i, BoProductionOrderStatusEnum.boposClosed);
                                 if (sta && Conexion.company.InTransaction)
                                 {
-                                    //Cambio 20220201
-
                                     Conexion.company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
 
+                                    #region Actualiza serie por UI
+                                    /*
                                     try
                                     {
                                         //Actualiza serie
@@ -561,18 +562,19 @@ namespace AddonProduccionEnsDes.view
                                         ((EditText)oFormSerie.Items.Item("4").Specific).Value = ItemCode;
                                         ((EditText)oFormSerie.Items.Item("54").Specific).Value = SerieNumberEqp;
                                         oFormSerie.Items.Item("1").Click(BoCellClickType.ct_Regular);
-
+                                        Thread.Sleep(500);
                                         ((EditText)oFormSerie.Items.Item("53").Specific).Value = SerieNumberEqp;
                                         Matrix oMatrix = (Matrix)oFormSerie.Items.Item("43").Specific;
                                         ((EditText)oMatrix.Columns.Item("8").Cells.Item(1).Specific).Value = dsHEAD.GetValue("U_EXC_FEPR", 0);
                                         ((EditText)oMatrix.Columns.Item("7").Cells.Item(1).Specific).Value = dsHEAD.GetValue("U_EXC_FEPR", 0);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_IMEI").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_IMEI", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_MARCA").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_MARC", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_MODELO").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_MODE", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_PRODPOR").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_PROP", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_FIRMW").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_FWAR", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_IMEI").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_IMEI", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_MARCA").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_MARC", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_MODELO").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_MODE", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_PRODPOR").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_PROP", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_FIRMW").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_FWAR", i);
                                         oFormSerie.Items.Item("1").Click(BoCellClickType.ct_Regular);
                                         oFormSerie.Close();
+                                        GenericQuery(Queries.UpdateSerieEquipo(ItemCode, SerieNumberEqp, dsDETA, i));
 
                                         Conexion.application.Menus.Item("12034").Activate();
                                         SAPbouiCOM.Form oFormSerie2 = Conexion.application.Forms.ActiveForm;
@@ -580,19 +582,20 @@ namespace AddonProduccionEnsDes.view
                                         ((EditText)oFormSerie2.Items.Item("4").Specific).Value = Chip;
                                         ((EditText)oFormSerie2.Items.Item("54").Specific).Value = SerieNumberCh;
                                         oFormSerie2.Items.Item("1").Click(BoCellClickType.ct_Regular);
-
+                                        Thread.Sleep(500);
                                         ((EditText)oFormSerie2.Items.Item("53").Specific).Value = dsDETA.GetValue("U_EXC_IMEICH", i);
                                         oMatrix = (Matrix)oFormSerie2.Items.Item("43").Specific;
                                         ((EditText)oMatrix.Columns.Item("8").Cells.Item(1).Specific).Value = dsHEAD.GetValue("U_EXC_FEPR", 0);
                                         ((EditText)oMatrix.Columns.Item("7").Cells.Item(1).Specific).Value = dsHEAD.GetValue("U_EXC_FEPR", 0);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_SIMCARD").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_SIMC", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_LINTEL").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_LTEL", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_OPERAD").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_OPER", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_PAQDATOS").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_PQDA", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_APN").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_DAPN", i);
-                                        ((EditText)oMatrix.Columns.Item("U_EXC_TIPIP").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_TIIP", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_SIMCARD").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_SIMC", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_LINTEL").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_LTEL", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_OPERAD").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_OPER", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_PAQDATOS").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_PQDA", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_APN").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_DAPN", i);
+                                        //((EditText)oMatrix.Columns.Item("U_EXC_TIPIP").Cells.Item(1).Specific).Value = dsDETA.GetValue("U_EXC_TIIP", i);
                                         oFormSerie2.Items.Item("1").Click(BoCellClickType.ct_Regular);
                                         oFormSerie2.Close();
+                                        GenericQuery(Queries.UpdateSerieChip(Chip, SerieNumberCh, dsDETA, i));
                                     }
                                     catch (Exception ex)
                                     {
@@ -626,6 +629,8 @@ namespace AddonProduccionEnsDes.view
                                             }
                                         }
                                     }
+                                    */
+                                    #endregion
                                 }
                             }
                         }
@@ -842,12 +847,11 @@ namespace AddonProduccionEnsDes.view
                 oReciboProducto.Lines.BaseEntry = int.Parse(dsDETA.GetValue("U_EXC_ORDT", row));
                 oReciboProducto.Lines.BaseLine = index;
                 oReciboProducto.Lines.Quantity = 1;
-                oReciboProducto.Lines.WarehouseCode = AddonProduccionEnsDes.Properties.Resources.AlmSalida;
+                oReciboProducto.Lines.WarehouseCode = dsDETA.GetValue("U_EXC_ALMI", row);  //AddonProduccionEnsDes.Properties.Resources.AlmSalida;
                 oReciboProducto.Lines.SerialNumbers.InternalSerialNumber = (dsDETA.GetValue("U_EXC_LTEL", row));
                 oReciboProducto.Lines.SerialNumbers.ManufacturerSerialNumber = (dsDETA.GetValue("U_EXC_SIMC", row));
                 oReciboProducto.Lines.SerialNumbers.ReceptionDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
                 oReciboProducto.Lines.SerialNumbers.ManufactureDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
-                //oReciboProducto.Lines.distnu
                 oReciboProducto.Lines.SerialNumbers.UserFields.Fields.Item("U_EXC_APN").Value = dsDETA.GetValue("U_EXC_DAPN", row);
                 oReciboProducto.Lines.SerialNumbers.UserFields.Fields.Item("U_EXC_TIPIP").Value = dsDETA.GetValue("U_EXC_TIIP", row);
                 oReciboProducto.Lines.SerialNumbers.UserFields.Fields.Item("U_EXC_IP").Value = dsDETA.GetValue("U_EXC_NRIP", row);
@@ -868,7 +872,7 @@ namespace AddonProduccionEnsDes.view
                     oReciboProducto.Lines.BaseEntry = int.Parse(dsDETA.GetValue("U_EXC_ORDT", row));
                     oReciboProducto.Lines.BaseLine = index;
                     oReciboProducto.Lines.Quantity = 1;
-                    oReciboProducto.Lines.WarehouseCode = AddonProduccionEnsDes.Properties.Resources.AlmSalida;
+                    oReciboProducto.Lines.WarehouseCode = dsDETA.GetValue("U_EXC_ALMI", row); //AddonProduccionEnsDes.Properties.Resources.AlmSalida;
                     index++;
                 }
                 if (!string.IsNullOrEmpty(dsDETA.GetValue("U_EXC_CACC2", row)))
@@ -879,7 +883,7 @@ namespace AddonProduccionEnsDes.view
                     oReciboProducto.Lines.BaseEntry = int.Parse(dsDETA.GetValue("U_EXC_ORDT", row));
                     oReciboProducto.Lines.BaseLine = index;
                     oReciboProducto.Lines.Quantity = 1;
-                    oReciboProducto.Lines.WarehouseCode = AddonProduccionEnsDes.Properties.Resources.AlmSalida;
+                    oReciboProducto.Lines.WarehouseCode = dsDETA.GetValue("U_EXC_ALMI", row); //AddonProduccionEnsDes.Properties.Resources.AlmSalida;
                 }
 
                 oReciboProducto.Lines.SerialNumbers.Quantity = 1;
@@ -887,31 +891,55 @@ namespace AddonProduccionEnsDes.view
 
                 if (res != 0)
                 {
+                    if (Conexion.company.InTransaction) Conexion.company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_RollBack);
+                    StatusMessageError(string.Format("Falló la fabricación {0}:{1}", "", Conexion.company.GetLastErrorDescription()));
+                    sta = false;
+                }
 
-                    /*
+                int EquipoSerie = GetAbsEntrySerie(dsDETA.GetValue("U_EXC_CEQP", row), dsDETA.GetValue("U_EXC_IMEI", row).ToString());
+                if (EquipoSerie > 0)
+                {
                     CompanyService oService = Conexion.company.GetCompanyService();
                     SerialNumberDetailsService oSerialNumbersService = (SerialNumberDetailsService)oService.GetBusinessService(ServiceTypes.SerialNumberDetailsService);
                     SerialNumberDetailParams oSerialNumberDetailParams = (SerialNumberDetailParams)oSerialNumbersService.GetDataInterface(SerialNumberDetailsServiceDataInterfaces.sndsSerialNumberDetailParams);
-                    oSerialNumberDetailParams.DocEntry = InternalNumberSerie;
+                    oSerialNumberDetailParams.DocEntry = EquipoSerie;
 
                     SerialNumberDetail oSerialNumberDetail = oSerialNumbersService.Get(oSerialNumberDetailParams);
-                    oSerialNumberDetail.MfrSerialNo = Serie; // (dsDETA.GetValue("U_EXC_SEQP", row));
-                    oSerialNumberDetail.AdmissionDate= DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
+                    oSerialNumberDetail.MfrSerialNo = Serie; 
+                    oSerialNumberDetail.AdmissionDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
                     oSerialNumberDetail.ManufacturingDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
-
-                    //Nuevo 20220203
                     oSerialNumberDetail.UserFields.Item("U_EXC_MARCA").Value = dsDETA.GetValue("U_EXC_MARC", row);
                     oSerialNumberDetail.UserFields.Item("U_EXC_MODELO").Value = dsDETA.GetValue("U_EXC_MODE", row);
                     oSerialNumberDetail.UserFields.Item("U_EXC_IMEI").Value = dsDETA.GetValue("U_EXC_IMEI", row);
                     oSerialNumberDetail.UserFields.Item("U_EXC_FIRMW").Value = dsDETA.GetValue("U_EXC_FWAR", row);
                     oSerialNumberDetail.UserFields.Item("U_EXC_FOTA").Value = dsDETA.GetValue("U_EXC_FOTA", row);
                     oSerialNumberDetail.UserFields.Item("U_EXC_PRODPOR").Value = dsDETA.GetValue("U_EXC_PROP", row);
+                    oSerialNumbersService.Update(oSerialNumberDetail);
+                }
 
-                    oSerialNumbersService.Update(oSerialNumberDetail);*/
+                int ChipSerie = GetAbsEntrySerie(dsDETA.GetValue("U_EXC_CCHI", row), dsDETA.GetValue("U_EXC_IMEICH", row));
+                if (ChipSerie > 0)
+                {
+                    CompanyService oService = Conexion.company.GetCompanyService();
+                    SerialNumberDetailsService oSerialNumbersService = (SerialNumberDetailsService)oService.GetBusinessService(ServiceTypes.SerialNumberDetailsService);
+                    SerialNumberDetailParams oSerialNumberDetailParams = (SerialNumberDetailParams)oSerialNumbersService.GetDataInterface(SerialNumberDetailsServiceDataInterfaces.sndsSerialNumberDetailParams);
+                    oSerialNumberDetailParams.DocEntry = ChipSerie;
 
-                    if (Conexion.company.InTransaction) Conexion.company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_RollBack);
-                    StatusMessageError(string.Format("Falló la fabricación {0}:{1}", "", Conexion.company.GetLastErrorDescription()));
-                    sta = false;
+                    SerialNumberDetail oSerialNumberDetail = oSerialNumbersService.Get(oSerialNumberDetailParams);
+                    oSerialNumberDetail.MfrSerialNo = (dsDETA.GetValue("U_EXC_SIMC", row));
+                    oSerialNumberDetail.AdmissionDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
+                    oSerialNumberDetail.ManufacturingDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_APN").Value = dsDETA.GetValue("U_EXC_DAPN", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_TIPIP").Value = dsDETA.GetValue("U_EXC_TIIP", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_IP").Value = dsDETA.GetValue("U_EXC_NRIP", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_IMEI").Value = dsDETA.GetValue("U_EXC_SIMC", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_SIMCARD").Value = dsDETA.GetValue("U_EXC_SIMC", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_LINEA").Value = dsDETA.GetValue("U_EXC_LINE", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_PAQDATOS").Value = dsDETA.GetValue("U_EXC_PQDA", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_PRODPOR").Value = dsDETA.GetValue("U_EXC_PROP", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_LINTEL").Value = dsDETA.GetValue("U_EXC_LTEL", row);
+                    oSerialNumberDetail.UserFields.Item("U_EXC_OPERAD").Value = dsDETA.GetValue("U_EXC_OPER", row);
+                    oSerialNumbersService.Update(oSerialNumberDetail);
                 }
             }
             catch (Exception ex)
@@ -1393,6 +1421,31 @@ namespace AddonProduccionEnsDes.view
 
             }
         }
+
+        private int GetAbsEntrySerie(string ItemCode, string IMEI)
+        {
+            SAPbobsCOM.Recordset oRS = null;
+            try
+            {
+                int serie = 0;
+                oRS = (SAPbobsCOM.Recordset)Conexion.company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
+                oRS.DoQuery(Queries.GetAbsEntrySerie(ItemCode, IMEI));
+
+                if (oRS.RecordCount > 0)
+                    serie = Convert.ToInt32(oRS.Fields.Item("AbsEntry").Value.ToString());
+                return serie;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                LiberarObjetoGenerico(oRS);
+
+            }
+        }
+
         private string GetInternalNumberSerie(string ItemCode, string IMEI)
         {
             SAPbobsCOM.Recordset oRS = null;
@@ -1416,6 +1469,7 @@ namespace AddonProduccionEnsDes.view
 
             }
         }
+
         private void SetDetalleSerItem(string ItemCode, string Serie, int row)
         {
             SAPbobsCOM.Recordset oRS = null;

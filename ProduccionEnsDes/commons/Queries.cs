@@ -62,7 +62,18 @@ namespace AddonProduccionEnsDes.commons
             string query = m_sSQL.ToString();
             return query;
         }
-        
+
+        public static string GetAbsEntrySerie(string ItemCode, string IMEI)
+        {
+            m_sSQL.Length = 0;
+            m_sSQL.Append("SELECT \"AbsEntry\" ");
+            m_sSQL.Append("FROM OSRN ");
+            m_sSQL.AppendFormat("WHERE \"ItemCode\" = '{0}' AND \"U_EXC_IMEI\" = '{1}';", ItemCode, IMEI.Replace("'", "''"));
+
+            string query = m_sSQL.ToString();
+            return query;
+        }
+
         public static string GetInternalNumberSerie(string ItemCode, string IMEI)
         {
             m_sSQL.Length = 0;
@@ -115,7 +126,7 @@ namespace AddonProduccionEnsDes.commons
             m_sSQL.Append("SP.\"U_EXC_MARCA\",  ");
             m_sSQL.Append("SP.\"U_EXC_MODELO\",  ");
             //m_sSQL.Append("SP.\"U_EXC_CCHI\",  ");
-           // m_sSQL.Append("SP.\"U_EXC_DCHI\",  ");
+            // m_sSQL.Append("SP.\"U_EXC_DCHI\",  ");
             //m_sSQL.Append("SP.\"DistNumber\" \"U_EXC_SCHI\",  ");
             m_sSQL.Append("SP.\"U_EXC_IMEI\",  ");
             m_sSQL.Append("SP.\"U_EXC_OPERAD\",  ");
@@ -138,7 +149,7 @@ namespace AddonProduccionEnsDes.commons
 
             //Nuevo 20241222
             m_sSQL.Append("SP.\"U_EXC_CACC1\",  ");
-            m_sSQL.Append("(SELECT \"ItemName\" FROM OITM A WHERE A.\"ItemCode\" = SP.\"U_EXC_CACC1\") AS \"U_EXC_DACC1\",  "); 
+            m_sSQL.Append("(SELECT \"ItemName\" FROM OITM A WHERE A.\"ItemCode\" = SP.\"U_EXC_CACC1\") AS \"U_EXC_DACC1\",  ");
             m_sSQL.Append("SP.\"U_EXC_CACC2\",  ");
             m_sSQL.Append("(SELECT \"ItemName\" FROM OITM A WHERE A.\"ItemCode\" = SP.\"U_EXC_CACC2\") AS \"U_EXC_DACC2\"  ");
             m_sSQL.Append("FROM OSRN SP  ");
@@ -173,6 +184,35 @@ namespace AddonProduccionEnsDes.commons
             m_sSQL.Length = 0;
             m_sSQL.AppendFormat("UPDATE \"@EXC_ENS1\" SET \"U_EXC_NSER\"='{0}' ", Serie);
             m_sSQL.AppendFormat("WHERE \"DocEntry\"='{0}' AND \"U_EXC_ORDT\"='{1}' ", DocEntry, OT);
+            return m_sSQL.ToString();
+        }
+
+        public static string UpdateSerieEquipo(string ItemCode, string Serie, SAPbouiCOM.DBDataSource dsDETA, int i)//OPTIMIZAR
+        {
+            m_sSQL.Length = 0;
+            m_sSQL.AppendFormat("UPDATE OSRN ");
+            m_sSQL.AppendFormat("SET \"U_EXC_IMEI\"='{0}', \"U_EXC_MARCA\"='{1}', \"U_EXC_MODELO\"='{2}', \"U_EXC_PRODPOR\"='{3}', \"U_EXC_FIRMW\"='{4}' "
+                                , dsDETA.GetValue("U_EXC_IMEI", i)
+                                , dsDETA.GetValue("U_EXC_MARC", i)
+                                , dsDETA.GetValue("U_EXC_MODE", i)
+                                , dsDETA.GetValue("U_EXC_PROP", i)
+                                , dsDETA.GetValue("U_EXC_FWAR", i));
+            m_sSQL.AppendFormat("WHERE \"ItemCode\" = '{0}' AND \"DistNumber\" = '{1}' ", ItemCode, Serie);
+            return m_sSQL.ToString();
+        }
+
+        public static string UpdateSerieChip(string ItemCode, string Serie, SAPbouiCOM.DBDataSource dsDETA, int i)//OPTIMIZAR
+        {
+            m_sSQL.Length = 0;
+            m_sSQL.Append("UPDATE OSRN ");
+            m_sSQL.AppendFormat("SET \"U_EXC_SIMCARD\"='{0}', \"U_EXC_LINTEL\"='{1}', \"U_EXC_OPERAD\"='{2}', \"U_EXC_PAQDATOS\"='{3}', \"U_EXC_APN\"='{4}',\"U_EXC_TIPIP\"='{5}' "
+                                , dsDETA.GetValue("U_EXC_SIMC", i)
+                                , dsDETA.GetValue("U_EXC_LTEL", i)
+                                , dsDETA.GetValue("U_EXC_OPER", i)
+                                , dsDETA.GetValue("U_EXC_PQDA", i)
+                                , dsDETA.GetValue("U_EXC_DAPN", i)
+                                , dsDETA.GetValue("U_EXC_TIIP", i));
+            m_sSQL.AppendFormat("WHERE \"ItemCode\" = '{0}' AND \"DistNumber\" = '{1}' ", ItemCode, Serie);
             return m_sSQL.ToString();
         }
 
@@ -221,7 +261,7 @@ namespace AddonProduccionEnsDes.commons
             m_sSQL.Length = 0;
             m_sSQL.Append("SELECT DISTINCT  SE.\"SysNumber\" \"Value\",SE.\"DistNumber\" \"Name\"  ");
             m_sSQL.Append("FROM OSRN SE ");
-            
+
             if (!string.IsNullOrEmpty(ItemCode))
             {
                 m_sSQL.AppendFormat("WHERE SE.\"ItemCode\"='{0}' ", ItemCode);
