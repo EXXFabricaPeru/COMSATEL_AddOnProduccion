@@ -776,7 +776,7 @@ namespace AddonProduccionEnsDes.view
                     oEmisionProduccion.Lines.WarehouseCode = AddonProduccionEnsDes.Properties.Resources.AlmSalida;
                 }
 
-                oEmisionProduccion.SaveXML("D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\emision.xml");
+
                 res = oEmisionProduccion.Add();
                 if (res != 0)
                 {
@@ -852,6 +852,7 @@ namespace AddonProduccionEnsDes.view
                         if (string.IsNullOrEmpty(dsDETA.GetValue("U_EXC_ORDT", i)))
                         {
                             oProduction = (ProductionOrders)Conexion.company.GetBusinessObject(BoObjectTypes.oProductionOrders);
+                            oProduction.PostingDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture); 
                             oProduction.DueDate = DateTime.ParseExact((dsHEAD.GetValue("U_EXC_FEPR", 0)), "yyyyMMdd", CultureInfo.InvariantCulture);
                             oProduction.ItemNo = dsDETA.GetValue("U_EXC_CPRO", i);
                             oProduction.PlannedQuantity = 1;
@@ -868,6 +869,7 @@ namespace AddonProduccionEnsDes.view
                             oProduction.Lines.ItemNo = dsDETA.GetValue("U_EXC_CCHI", i);
                             //oProduction.Lines.Warehouse = GenericQuery(Queries.GetWhsSerie(dsDETA.GetValue("U_EXC_CCHI", i), dsDETA.GetValue("U_EXC_SCHI", i)));
                             oProduction.Lines.Warehouse = AddonProduccionEnsDes.Properties.Resources.AlmSalida; //dsHEAD.GetValue("U_EXC_ALMA", 0);
+                            oProduction.Lines.Warehouse = "01";
                             oProduction.Lines.ProductionOrderIssueType = BoIssueMethod.im_Manual;
                             oProduction.Lines.Add();
 
@@ -888,6 +890,7 @@ namespace AddonProduccionEnsDes.view
                             }
 
                             res = oProduction.Add();
+                            oProduction.SaveXML("D:\\produccion.xml");
                             if (res != 0)
                             {
                                 StatusMessageError(string.Format("Falló la fabricación:{0}", Conexion.company.GetLastErrorDescription()));

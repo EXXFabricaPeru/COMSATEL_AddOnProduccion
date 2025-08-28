@@ -74,6 +74,17 @@ namespace AddonProduccionEnsDes.commons
             return query;
         }
 
+        public static string GetAbsEntrySerie2(string ItemCode, string IMEI)
+        {
+            m_sSQL.Length = 0;
+            m_sSQL.Append("SELECT \"AbsEntry\" ");
+            m_sSQL.Append("FROM OSRN ");
+            m_sSQL.AppendFormat("WHERE \"ItemCode\" = '{0}' AND \"MnfSerial\" = '{1}';", ItemCode, IMEI.Replace("'", "''"));
+
+            string query = m_sSQL.ToString();
+            return query;
+        }
+
         public static string GetInternalNumberSerie(string ItemCode, string IMEI)
         {
             m_sSQL.Length = 0;
