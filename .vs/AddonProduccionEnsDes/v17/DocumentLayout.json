@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|d:\\trabajo\\exxis\\comsatel\\produccion masiva\\addonproduccion\\produccionensdes\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\view\\frmensamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\view\\frmensamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\commons\\datastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\commons\\datastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\commons\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\commons\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\commons\\folderfiledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\commons\\folderfiledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\view\\frmdesensamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\view\\frmdesensamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\view\\frmocsl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\view\\frmocsl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\data_schema\\scdesensamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\data_schema\\scdesensamble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\data_schema\\schemaaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\data_schema\\schemaaddon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\produccionensdes\\view\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1DE06F-D40D-4C00-980E-E7BD3EA55438}|ProduccionEnsDes\\AddonProduccionEnsDes.csproj|solutionrelative:produccionensdes\\view\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\Properties\\Resources.Designer.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T19:07:59.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\Properties\\Resources.resx",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\Properties\\Resources.resx",
+              "RelativeToolTip": "ProduccionEnsDes\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-15T19:07:21.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmEnsamble.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmEnsamble.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\view\\frmEnsamble.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmEnsamble.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\view\\frmEnsamble.cs",
+              "ViewState": "AgIAAFADAAAAAAAAAAAcwJYDAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:33:29.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Queries.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\commons\\Queries.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\commons\\Queries.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\commons\\Queries.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\commons\\Queries.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAkwNQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T20:32:36.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDesensamble.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmDesensamble.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\view\\frmDesensamble.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmDesensamble.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\view\\frmDesensamble.cs",
+              "ViewState": "AgIAAMgGAAAAAAAAAAAQwOsGAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:47:50.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\conexion\\Conexion.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\conexion\\Conexion.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\conexion\\Conexion.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\conexion\\Conexion.cs",
+              "ViewState": "AgIAAHYBAAAAAAAAAAAEwH8BAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:57:42.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataStructure.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\commons\\DataStructure.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\commons\\DataStructure.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\commons\\DataStructure.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\commons\\DataStructure.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:16:57.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\Program.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\Program.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\Program.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:57:42.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SchemaAddon.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\data_schema\\SchemaAddon.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\data_schema\\SchemaAddon.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\data_schema\\SchemaAddon.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\data_schema\\SchemaAddon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:57:42.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FolderFileDialog.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\commons\\FolderFileDialog.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\commons\\FolderFileDialog.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\commons\\FolderFileDialog.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\commons\\FolderFileDialog.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:57:42.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmOCSL.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmOCSL.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\view\\frmOCSL.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmOCSL.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\view\\frmOCSL.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T17:44:17.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SCDesensamble.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\data_schema\\SCDesensamble.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\data_schema\\SCDesensamble.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\data_schema\\SCDesensamble.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\data_schema\\SCDesensamble.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:57:42.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmConfig.cs",
+              "DocumentMoniker": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmConfig.cs",
+              "RelativeDocumentMoniker": "ProduccionEnsDes\\view\\frmConfig.cs",
+              "ToolTip": "D:\\Trabajo\\Exxis\\COMSATEL\\Produccion Masiva\\AddOnProduccion\\ProduccionEnsDes\\view\\frmConfig.cs",
+              "RelativeToolTip": "ProduccionEnsDes\\view\\frmConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:57:42.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

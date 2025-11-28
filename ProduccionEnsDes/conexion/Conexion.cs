@@ -4,6 +4,7 @@ using AddonProduccionEnsDes.view;
 using SAPbobsCOM;
 using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 using System.Xml;
 
 namespace AddonProduccionEnsDes.conexion
@@ -24,7 +25,7 @@ namespace AddonProduccionEnsDes.conexion
                 application = instanciarAplicacion();
                 company = InstanciarCompania();
                 InicializarFiltros();
-                //DataStructure sd = new DataStructure();
+                DataStructure sd = new DataStructure();
                 application.AppEvent += new SAPbouiCOM._IApplicationEvents_AppEventEventHandler(Application_AppEvent);
                 application.MenuEvent += new SAPbouiCOM._IApplicationEvents_MenuEventEventHandler(Application_MenuEvent);
                 application.ItemEvent += new SAPbouiCOM._IApplicationEvents_ItemEventEventHandler(Application_ItemEvent);
@@ -101,6 +102,7 @@ namespace AddonProduccionEnsDes.conexion
             filtroItem.AddEx(FormName.CONTRATO);
             filtroItem.AddEx(FormName.ENSAMBLE);
             filtroItem.AddEx(FormName.DESENSAMBLE);
+            filtroItem.AddEx("10010044"); //Lista de datos maestros de numero de serie
 
             SAPbouiCOM.EventFilter filtroFocus = filtros.Add(SAPbouiCOM.BoEventTypes.et_VALIDATE);
             filtroFocus.AddEx(FormName.ENSAMBLE);
@@ -121,8 +123,8 @@ namespace AddonProduccionEnsDes.conexion
             //filterLostFocus.AddEx(FormName.CONTRATO);
 
             //SAPbouiCOM.EventFilter filterFormLoad = filtros.Add(SAPbouiCOM.BoEventTypes.et_FORM_LOAD);
-            //filterFormLoad.AddEx(FormName.CONTRATO);
-            //filterFormLoad.AddEx(FormName.LLAMADA_SERVICIO);
+            //filterFormLoad.AddEx(FormName.ENSAMBLE);
+            //filterFormLoad.AddEx(FormName.DESENSAMBLE);
 
             ////filterFormLoad.AddEx("0");
             //SAPbouiCOM.EventFilter filterAddData = filtros.Add(SAPbouiCOM.BoEventTypes.et_FORM_DATA_ADD);
@@ -141,6 +143,8 @@ namespace AddonProduccionEnsDes.conexion
             filterRightClick.AddEx(FormName.ENSAMBLE);
             filterRightClick.AddEx(FormName.DESENSAMBLE);
 
+            
+
             application.SetFilter(filtros);
         }
 
@@ -156,6 +160,15 @@ namespace AddonProduccionEnsDes.conexion
                     BubbleEvent = formOpen[FormUID].HandleItemEvents(pVal);
                 }
 
+
+                if (pVal.FormTypeEx == "10010044")
+                {
+                    if (pVal.BeforeAction && pVal.ItemUID == "5")
+                    {
+                        BubbleEvent = false;
+                        Conexion.application.StatusBar.SetText(Constants.PREFIX_MSG_ADDON + "Operación no disponible", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Error);
+                    }
+                }
                 //switch (pVal.FormTypeEx)
                 //{
                 //    case FormName.CONTRATO:

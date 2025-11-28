@@ -499,6 +499,6 @@ D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj
 D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonProduccionEnsDes.Properties.Resources.resources
 D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonProduccionEnsDes.csproj.GenerateResource.cache
 D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonProduccionEnsDes.csproj.CoreCompileInputs.cache
-D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonProduccionEnsDes.csproj.CopyComplete
 D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonProduccionEnsDes.exe
 D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonProduccionEnsDes.pdb
+D:\Trabajo\Exxis\COMSATEL\Produccion Masiva\AddOnProduccion\ProduccionEnsDes\obj\x64\Debug\AddonPro.1933E4B5.Up2Date

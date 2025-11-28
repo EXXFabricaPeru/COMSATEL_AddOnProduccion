@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
@@ -55,6 +56,28 @@ namespace AddonProduccionEnsDes.view
                 mForm = CreateForm(Conexion.company, Conexion.application, Properties.Resources.frmDesensamble2, FormName.DESENSAMBLE);
                 if (mForm != null)
                 {
+                    if (Conexion.application.ClientType == BoClientType.ct_Browser)
+                    {
+                        SAPbouiCOM.Item btnCancelar = (SAPbouiCOM.Item)mForm.Items.Item("2");
+
+                        SAPbouiCOM.Item oItem2 = mForm.Items.Add("RUTA", SAPbouiCOM.BoFormItemTypes.it_EDIT);
+                        oItem2.Left = btnCancelar.Left + btnCancelar.Width + (btnCancelar.Width * 3 / 2) + 10;
+                        oItem2.Width = mForm.Width - (oItem2.Left + 20);
+                        oItem2.Top = btnCancelar.Top;//80;
+                        oItem2.Height = btnCancelar.Height - 2;
+                        SAPbouiCOM.EditText oEditText2 = ((SAPbouiCOM.EditText)(oItem2.Specific));
+                        oEditText2.String = "";
+
+                        SAPbouiCOM.Item oIteml2 = mForm.Items.Add("RUTAL", SAPbouiCOM.BoFormItemTypes.it_STATIC);
+                        oIteml2.Left = btnCancelar.Left + btnCancelar.Width + +10;
+                        oIteml2.Width = btnCancelar.Width * 3 / 2 - 30;
+                        oIteml2.Top = btnCancelar.Top;
+                        oIteml2.Height = btnCancelar.Height - 2;
+                        SAPbouiCOM.StaticText oStaticText2 = ((SAPbouiCOM.StaticText)(oIteml2.Specific));
+                        oStaticText2.Caption = "Ingrese ruta de Excel";
+                        oStaticText2.Item.LinkTo = "RUTA";
+                    }
+
                     mForm.Freeze(true);
                     dictionary.Add(getFormUID(), (commons.IForm)this);
                     Initializer();
@@ -1747,10 +1770,39 @@ namespace AddonProduccionEnsDes.view
             {
                 if (mForm.Mode == BoFormMode.fm_ADD_MODE)
                 {
-
                     string Archivo = "";
-                    openFileDialog = new FolderFileDialog();
-                    Archivo = openFileDialog.FindFile();
+                    SLDocument Excel = null;
+
+                    if (Conexion.application.ClientType == BoClientType.ct_Desktop)
+                    {
+                        openFileDialog = new FolderFileDialog();
+                        Archivo = openFileDialog.FindFile();
+                        Excel = new SLDocument(Archivo);
+                    }
+                    else if (Conexion.application.ClientType == BoClientType.ct_Browser)
+                    {
+                        Archivo = ((SAPbouiCOM.EditText)mForm.Items.Item("RUTA").Specific).Value;
+
+                        if (string.IsNullOrEmpty(Archivo)) throw new Exception("Debe ingresar la ruta de un archivo excel");
+                        else
+                        {
+                            bool esRuta = System.IO.Path.IsPathRooted(Archivo) && Archivo.IndexOfAny(System.IO.Path.GetInvalidPathChars()) == -1;
+                            if (!esRuta) throw new Exception("La ruta del archivo excel no es válida");
+                            else
+                            {
+                                if (!File.Exists(Archivo)) throw new Exception("El archivo excel no existe en la ruta indicada");
+                                else
+                                {
+                                    string extension = System.IO.Path.GetExtension(Archivo).ToLower();
+                                    if (!string.Equals(extension, ".xlsx", StringComparison.OrdinalIgnoreCase))
+                                        throw new Exception("El archivo de la ruta debe ser un excel con extensión .xlsx");
+                                }
+                            }
+                        }
+
+                        Excel = new SLDocument(Archivo);
+                    }
+
 
                     if (dsDETA.Size > 0)
                     {
@@ -1763,7 +1815,7 @@ namespace AddonProduccionEnsDes.view
                     {
                         StatusMessageInfo("Leyendo archivo excel, por favor espere...");
                         //Leer excel
-                        var Excel = new SLDocument(Archivo);
+                        //var Excel = new SLDocument(Archivo);
                         string firstSheetName = Excel.GetSheetNames()[0];
                         Excel.SelectWorksheet(firstSheetName);
                         int lastRow = Excel.GetWorksheetStatistics().EndRowIndex;
