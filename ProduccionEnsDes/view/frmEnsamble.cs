@@ -581,8 +581,10 @@ namespace AddonProduccionEnsDes.view
 
                                 int errorCode; string errorMessage;
                                 Conexion.company.GetLastError(out errorCode, out errorMessage);
-
-                                throw new Exception(string.Format("Falló en ensamblar: {0}", errorMessage));
+                                if (string.IsNullOrEmpty(errorMessage))
+                                    throw new Exception(string.Format("Falló en ensamblar: {0}", ex.Message));
+                                else
+                                    throw new Exception(string.Format("Falló en ensamblar: {0}", errorMessage));
                             }
                         }
                         else
@@ -1720,7 +1722,7 @@ namespace AddonProduccionEnsDes.view
                                 else
                                 {
                                     string extension = System.IO.Path.GetExtension(Archivo).ToLower();
-                                    if(!string.Equals(extension, ".xlsx", StringComparison.OrdinalIgnoreCase)) 
+                                    if (!string.Equals(extension, ".xlsx", StringComparison.OrdinalIgnoreCase))
                                         throw new Exception("El archivo de la ruta debe ser un excel con extensión .xlsx");
                                 }
                             }
